@@ -159,7 +159,11 @@ with st.expander("View Data"):
 
 # Download orginal DataSet
 csv = df.to_csv(index = False).encode('utf-8')
-st.download_button('Download Data', data = csv, file_name = "Data.csv",mime = "text/csv")        
+st.download_button('Download Data', data = csv, file_name = "Data.csv",mime = "text/csv")  
+
+
+
+# streamlit run streamlitapp.py 
 
 
 
